@@ -1,6 +1,6 @@
 """AutoCTF-GAN — adaptive attack/defense CTF co-evolution engine.
 
-Extends yixuan1112-coder/CTF-generation-AI-agent (ctf_factory) with a real
+Extends SeraphinaXYX/CTF-generation-AI-agent (ctf_factory) with a real
 GAN-style Generator<->Attacker loop, a mandatory solvability gate, and a live
 tournament dashboard. See README.md for the 4-step build.
 """

@@ -204,7 +204,7 @@ python -m ctf_factory.cli memory
 克隆并进入项目：
 
 ```powershell
-git clone https://github.com/yixuan1112-coder/CTF-generation-AI-agent.git
+git clone https://github.com/SeraphinaXYX/CTF-generation-AI-agent.git
 cd CTF-generation-AI-agent
 ```
 

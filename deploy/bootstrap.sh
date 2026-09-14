@@ -17,7 +17,7 @@ set -euo pipefail
 DOMAIN="${1:-}"
 EMAIL="${2:-}"
 DASH_DOMAIN="${3:-}"
-REPO="${ARENA_REPO:-https://github.com/yixuan1112-coder/CTF-generation-AI-agent}"
+REPO="${ARENA_REPO:-https://github.com/SeraphinaXYX/CTF-generation-AI-agent}"
 # Deploy a branch instead of the default one:  ARENA_BRANCH=my-branch sudo -E bash ...
 # Without this, a shallow clone silently takes the default branch, so work that
 # has not been merged yet deploys as the version it replaced.

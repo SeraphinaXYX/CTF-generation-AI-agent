@@ -12,7 +12,7 @@ single fact decides the whole deployment.
 fresh Ubuntu 22.04/24.04 box with a domain already pointed at it:
 
 ```bash
-git clone https://github.com/yixuan1112-coder/CTF-generation-AI-agent
+git clone https://github.com/SeraphinaXYX/CTF-generation-AI-agent
 cd CTF-generation-AI-agent
 sudo bash deploy/bootstrap.sh arena.example.com you@example.com
 ```
@@ -150,7 +150,7 @@ the untrusted part gets containerised.
 # 1. user, code, dependencies
 sudo useradd -r -m -d /opt/arena arena
 sudo usermod -aG docker arena          # only to launch agent sandboxes
-sudo -u arena git clone https://github.com/yixuan1112-coder/CTF-generation-AI-agent /opt/arena
+sudo -u arena git clone https://github.com/SeraphinaXYX/CTF-generation-AI-agent /opt/arena
 cd /opt/arena
 sudo -u arena python3 -m venv .venv
 sudo -u arena .venv/bin/pip install -e . pycryptodome sympy flask
